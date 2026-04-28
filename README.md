@@ -47,3 +47,36 @@ npm install tsx @types/express @types/nodemailer @types/node -D
 ### 4. Integração
 
 Diferente de rodar dois servidores separados, este projeto usa o **Vite como Middleware** dentro do Express. Isso permite que um único processo gerencie a API e sirva os arquivos estáticos do frontend.
+
+---
+
+## 🚀 Como Rodar este Projeto Localmente
+
+1. **Instale as Dependências:**
+
+```bash
+npm install
+```
+
+2. **Instale o Servidor de Desenvolvimento:**
+
+```bash
+npm run dev
+```
+
+3. **Acesse o Navegador:**
+
+**[http://localhost:3000](http://localhost:3000)**
+
+---
+
+## 📁 Estrutura de Arquivos para Estudo
+
+- `/server.ts`: Lógica central do servidor, rotas de API e gerenciamento do banco de dados;
+- `/src/App.tsx`: Interface reativa construída com React e Tailwind;
+- `/src/types.ts`: Definições de tipos (Interfaces) para Usuários, Produtos e Aluguéis;
+- `/database.sqlite`: Banco de dados gerado automaticamente na primeira execução.
+
+---
+
+Este projeto é uma solução escalável para empresas que precisam de controle rigoroso sobre seu inventário e movimentações de materiais.
