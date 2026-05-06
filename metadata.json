@@ -1,6 +1,6 @@
 {
-    "name": "Rental Manager",
-    "description": "Sistema versátil de gerenciamento de aluguéis multisuporte para equipamentos, EPIs e materiais diversos.",
+    "name": "Multi-Support Rental Manager",
+    "description": "Sistema profissional e versátil de gerenciamento de aluguéis multisuporte com interface moderna, arquitetura modular e controle completo de inventário.",
     "requestFramePermissions": [],
     "majorCapabilities": []
 }
